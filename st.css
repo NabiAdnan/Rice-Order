@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+    /* background-color: #edede9; */
+
+}
+
+
+
+
+.navbar{
+    height: 60px;
+    justify-content: space-evenly;
+    background-color: black;
+    display: flex;
+    color: white;
+}
+
+.nav-logo{
+    height: 59px;
+    width: 60px;
+}
+
+.logo{
+    background-image: url(rice\ logo.jpg);
+    background-size:cover;
+    height: 59px;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.border{
+    border: 2px solid transparent;
+}
+
+
+.border:hover{
+    border: 2px solid rgb(248, 247, 247);
+    
+}
+
+.nav-loc{
+    cursor: pointer;s;
+}
+
+.first{
+    font-size: 0.8rem;
+    color: aliceblue;
+}
+
+.add-icon{
+    border: 0.5 white;
+}
+
+.second{
+    font-size: 1rem;
+    color: aliceblue;
+}
+
+
+.Orders{
+    justify-content: center;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+
+
+
+/*BOXES*/
+.container{
+    height: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.container img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid rgba(244, 83, 83, 0.684);
+    transition: all ease-in-out 0.5s;
+    margin-top: 100px;
+    cursor: pointer;
+     margin-right: 10px; 
+}
+
+
+.container img:hover{
+    width: 25%;
+}
+
+
+footer{
+    position: fixed;
+    bottom:0;
+    width: 100vw;
+
+}
+
+footer a{
+    color: blue;
+    text-decoration: underline;
+}
+.container h2{
+    margin-top: 50px;
+}
+
+body{
+    background-image: url(rice\ backu.avif);
+    background-size: cover;
+}

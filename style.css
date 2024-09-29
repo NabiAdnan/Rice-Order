@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+    /* background-color: #edede9; */
+
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+.navbar{
+    height: 60px;
+    justify-content: space-evenly;
+    background-color: black;
+    display: flex;
+    color: white;
+}
+
+.nav-logo{
+    height: 59px;
+    width: 60px;
+}
+
+.logo{
+    background-image: url(rice\ logo.jpg);
+    background-size:cover;
+    height: 59px;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.border{
+    border: 2px solid transparent;
+}
+
+
+.border:hover{
+    border: 2px solid rgb(248, 247, 247);
+    
+}
+
+
+.container {
+	width: 80%;
+	margin: 40px auto;
+	background-color: #f9f9f9;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+.form-group label {
+	display: block;
+	margin-bottom: 10px;
+	
+}
+
+.form-group input[type="text"], .form-group select {
+	width: 100%;
+	height: 40px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+.form-group input[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
+.form-group textarea {
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
